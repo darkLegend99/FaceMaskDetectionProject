@@ -1,0 +1,19 @@
+{
+  "name": "collegeadmissionpagewebpage",
+  "version": "1.0.0",
+  "description": "College Website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gunjankapoor99/collegeWebsite.git"
+  },
+  "author": "Dark Legend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gunjankapoor99/collegeWebsite/issues"
+  },
+  "homepage": "https://github.com/Gunjankapoor99/collegeWebsite#readme"
+}

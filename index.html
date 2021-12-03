@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script type="text/javascript" src="<?php echo tz_JS . '/bootstrap/jquery.js'; ?>"></script>
+
+    <script type="text/javascript" src="<?php echo tz_JS . '/bootstrap/bootstrap-carousel.js'; ?>"></script>
+    <script type="text/javascript" src="<?php echo tz_JS . '/bootstrap/bootstrap-transition.js'; ?>"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <title>Face Mask Detection</title>
+</head>
+
+<body>
+
+    <div class="navfixed">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">😷 FaciFyy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Technology
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Contact
+                        </a>
+
+                    </li>
+                </ul>
+                <button style="background-color: none; border: 2px solid black !important;" type="button"
+                    class="btn btn-secondary">Request Demo</button>
+            </div>
+        </nav>
+    </div>
+
+    <div>
+
+        <div>
+            <div>
+                <h3 style="position: absolute" id="head-main">Face Mask Detection Model</h3>
+
+                <h6 style="position: absolute; top: 22rem; left: 5rem; color: rgb(122, 121, 121);">If you don't wear a
+                    mask, then you will be in <span style="color: red; font-weight: 900;">DANGER.</span></h6>
+                <h4 style="position: absolute; top: 24rem; left: 5rem; color: rgb(122, 121, 121);">Based On Artificial
+                    Intelligence</h4>
+                <button class="btn btn-dark" style="position:absolute; top: 27rem; left: 5rem;">Request a
+                    demo</button>
+                <img class="d-block w-100" src="media/img3.jpeg" alt="First slide">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="about">
+        <p>Face mask detection refers to detect whether a person is wearing a mask or not. Face mask recognition is
+            mainly
+            used for identification. Due to the popularity of video surveillance, many video surveillance systems
+            urgently need a kind of rapid identification technology under in order to quickly identify people in remote
+            and realize intelligent alarm beforehand. <br> <br>
+            Dahua Face Recognition solutions offer high accuracy of detection rate and recognition rate with its
+            advanced AI technology ,and can provide such functions as Face Detection, Face Comparison, Intelligent
+            Search, Face Image Search, Face Database Management, Mobile App Linkage, Information Display, Video Full
+            Color ,etc. to improve user experience.
+        </p>
+
+    </div>
+    <div id="video" style="position: relative; height:auto;text-align: center; overflow: hidden;z-index: 0;">
+        <img src="https://miro.medium.com/max/1400/1*KD8FU8SYrSKWQX0y7SRRMg.gif"
+            style="max-width: 100%;width: 100%; height: auto; position: relative;z-index: 0;" alt="">
+        <div style="position: absolute; z-index: 1;top: 0;left: 0; bottom: 0;right: 0; margin-top: 20vw;">
+            <h1 style="color: white; font-size: 6vw;">Get Ready</h1>
+            <h4 style="color: white; font-size: 4vw;">To discover the power of Artificial Intelligence</h4>
+        </div>
+
+        <div class="graduateProgram">
+
+            <div class="animateIcons">
+                <div style="background-color: rgb(213, 104, 202);">
+                    <img src="media/search.png" style="width: 5rem; height: 6rem; margin-top: 11px;">
+                </div>
+                <div class="animateIconsHead">
+                    <b>Quick Search</b>
+                </div>
+            </div>
+            <div class="animateIcons">
+                <div style="background-color: rgb(104, 207, 213);">
+                    <img src="media/alarm.png" style="width: 5rem; height: 6rem; margin-top: 11px;">
+                </div>
+                <div class="animateIconsHead">
+                    <b>Real-time Alarm</b>
+                </div>
+            </div>
+            <div class="animateIcons">
+                <div style="background-color: rgb(104, 213, 108);">
+                    <img src="media/percentage.png" style="width: 4rem; height: 4rem; margin-top: 25px;">
+                </div>
+                <div class="animateIconsHead">
+                    <b>High Accuracy</b>
+                </div>
+            </div>
+            <div class="animateIcons">
+                <div style="background-color: rgb(231, 149, 85);">
+                    <img src="media/icon_financial.png" style="width: 5rem; height: 6rem; margin-top: 11px;">
+                </div>
+                <div class="animateIconsHead">
+                    <b>Multi-Channel Recognition</b>
+                </div>
+            </div>
+            <div class="animateIcons">
+                <div style="background-color: rgb(83, 121, 209);">
+                    <img src="media/business-and-finance.png" style="width: 5rem; height: 6rem; margin-top: 11px;">
+                </div>
+                <div class="animateIconsHead">
+                    <b>Business Intelligent</b>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="courses">
+        <div style="width: 50%; margin: auto;">
+            <h2 class="majorsandPrograms">Use Cases</h2>
+        </div>
+        <div class="card-group">
+            <div class="card card1">
+                <img class="card-img-top cardImg1" src="media/usecase1.png" alt="Card image cap">
+                <div class="slideUp"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Retail</h5>
+                    <p class="card-text">Retailers need to monitor their premises to control the current occupancy and
+                        wearing of masks. Digital screens can be used to display information for both the number of
+                        people allowed in the store and mask detection.</p>
+                    <div class="hide">Learn More</div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top cardImg2" src="media/usecase2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Airports</h5>
+                    <p class="card-text">Our face mask detector can be very effectively used at airports mainly for
+                        entrance flow management and monitoring. The software can be added to any access gate or
+                        entrance to make sure that all passengers follow the safety rules when boarding a plane.</p>
+                    <div class="hide">Learn More</div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top cardImg3" src="media/usecase3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Hospitality</h5>
+                    <p class="card-text">Hotels, restaurants and bars are opening their doors to the public with certain
+                        regulations. In many cases, visitors will be required to wear masks when checking in or
+                        interacting with the staff. Ensure a smooth and safe visitor experience. </p>
+                    <div class="hide">Learn More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="verticalLineDiv">
+        <div class="verticalLine"></div>
+    </div>
+
+    <div class="iitStrongHead">
+        <h2>Business Challenges</h2>
+    </div>
+    <div class="mainIITStrong">
+        <div class="iitStrongDiv">
+            <img src="media/imgb1.jpeg">
+            <div class="strongPoints">
+                <p>BIG</p>
+                <p><b>DATA</b></p>
+            </div>
+        </div>
+        <div class="verticalLineDiv">
+            <div class="verticalLineStrong"></div>
+        </div>
+        <div class="iitStrongDiv">
+            <img src="media/imgb2.jpeg">
+            <div class="strongPoints">
+                <p>LOW</p>
+                <p><b>ACCURACY</b></p>
+            </div>
+        </div>
+        <div class="verticalLineDiv">
+            <div class="verticalLineStrong"></div>
+        </div>
+        <div class="iitStrongDiv">
+            <img src="media/imgb3.jpeg" style="margin-bottom: 1rem; height: 7rem;">
+            <div class="strongPoints">
+                <p>LIMITED</p>
+                <p><b>VALUE</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="parentOfBagroundImage">
+        <div class="backgroundImage" style="background-image: url('https://media.wired.com/photos/613a3bfa1cd797e0bfeb78dd/master/w_2400,h_1800,c_limit/Gear-Armbrust-American-Surgical-Mask.jpeg'); width: 100%; height: 35vw; background-position: center;padding-top: 4.6vw;border:1px solid darkmagenta; display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover"></div>
+
+        <h6 style=" font-size: 3vw; color: darkmagenta;padding-top: 4vw; text-align: center; ">How we trained our Model?
+        </h6>
+        <p style="margin-left:28%;">We have trained our model on many human faces with high accuracy.</p>
+        <div class="flexnumbers" style="margin-left: 5vw;">
+            <div>
+                <p><b>2,105</b></p>
+                <p>Faces tested with mask</p>
+            </div>
+            <div>
+                <p><b>2,088</b></p>
+                <p>Faces successfully recognized with mask</p>
+            </div>
+            <div>
+                <p><b>2105</b></p>
+                <p> Faces tested without mask</p>
+            </div>
+            <div>
+                <p><b>2,100</b></p>
+                <p>Faces successfully recognized without mask</p>
+            </div>
+            <div>
+                <p><b>17</b></p>
+                <p>Faces went unrecognized</p>
+            </div>
+            <div>
+                <p><b>98%+</b></p>
+                <p>accuracy</p>
+            </div>
+            <div>
+                <p><b>5</b></p>
+                <p>Faces went unrecognized</p>
+            </div>
+            <div>
+                <p><b>89%+</b></p>
+                <p>Accuracy</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexdirector" id="director">
+        <div class="divdirectorimage" style="width: fit-content;">
+            <img src="media/imghw1.png" style="width: 30rem; height: 30rem;">
+        </div>
+        <div class="divdirectorwords">
+            <h2>How does facemask detection work?
+            </h2><br>
+            <p style=" font-size: 1rem;">Face mask detection is an AI based technology that analyzes a video stream to
+                detect and recognize a face mask worn by an individual person or a crowd of people. Our DeepSight
+                software outputs a confidence value for each detection. Every individual is classified either as
+                ‘wearing a mask’ or flagged as ‘not wearing a mask’. If the face mask detector application identifies a
+                user as not wearing a mask, a custom message can be delivered via a digital screen to remind all
+                visitors to wear masks before entering the premises.</p>
+        </div>
+    </div>
+
+    <div class="alllinks">
+
+        <div id='navbarfooter'>
+            © 2021-FaciFyy | Face Mask Detection Model
+        </div>
+
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
